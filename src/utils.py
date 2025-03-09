@@ -22,27 +22,30 @@ def get_hh_comp_data() -> list[dict[str, Any]]:
 def create_database(database_name: str, params: dict) -> None:
     """Создание базы данных и таблиц для сохранения данных о компаниях и вакансиях"""
     params = config()
-    conn = psycopg2.connect(dbname='postgres', **params)
+    conn = psycopg2.connect(dbname="postgres", **params)
     conn.autocommit = True
     cur = conn.cursor()
 
-    cur.execute(f'DROP DATABASE {database_name}')
-    cur.execute(f'CREATE DATABASE {database_name}')
+    cur.execute(f"DROP DATABASE {database_name}")
+    cur.execute(f"CREATE DATABASE {database_name}")
 
     cur.close()
     conn.close()
 
     conn = psycopg2.connect(dbname=database_name, **params)
     with conn.cursor() as cur:
-        cur.execute("""
+        cur.execute(
+            """
         CREATE TABLE company (
                     id SERIAL UNIQUE,
                     company_id INT PRIMARY KEY,
                     company_name VARCHAR(255) NOT NULL);
-        """)
+        """
+        )
 
     with conn.cursor() as cur:
-        cur.execute("""
+        cur.execute(
+            """
         CREATE TABLE vacancy (
                     vacancy_id SERIAL PRIMARY KEY,
                     company_id INT REFERENCES company(company_id),
@@ -52,13 +55,19 @@ def create_database(database_name: str, params: dict) -> None:
                     salary_currency VARCHAR(50),
                     url VARCHAR(255),
                     description TEXT)
-        """)
+        """
+        )
 
     conn.commit()
     conn.close()
 
 
-def save_data_to_database(data_company: list[dict[str, Any]], data_vacancy: list[dict[str, Any]],  database_name: str, params: dict) -> None:
+def save_data_to_database(
+    data_company: list[dict[str, Any]],
+    data_vacancy: list[dict[str, Any]],
+    database_name: str,
+    params: dict,
+) -> None:
     """Сохранение данных о компаниях и вакансиях в базу данных"""
     params = config()
     conn = psycopg2.connect(dbname=database_name, **params)
@@ -71,16 +80,16 @@ def save_data_to_database(data_company: list[dict[str, Any]], data_vacancy: list
                 VALUES (%s, %s)
                 RETURNING company_id
                 """,
-                vars=(emp['id'], emp["name"]),
+                vars=(emp["id"], emp["name"]),
             )
 
             company_id = cur.fetchone()[0]
 
             for vacancy in data_vacancy:
-                if int(vacancy['employer']['id']) == int(company_id):
+                if int(vacancy["employer"]["id"]) == int(company_id):
                     cur.execute(
                         """
-                        INSERT INTO vacancy (company_id, vacancy_name, salary_from, salary_to, 
+                        INSERT INTO vacancy (company_id, vacancy_name, salary_from, salary_to,
                         salary_currency, url, description)
                         VALUES (%s, %s, %s, %s, %s, %s, %s)
                         """,
@@ -91,7 +100,7 @@ def save_data_to_database(data_company: list[dict[str, Any]], data_vacancy: list
                             vacancy["salary"]["to"],
                             vacancy["salary"]["currency"],
                             vacancy["url"],
-                            vacancy["snippet"]['responsibility'],
+                            vacancy["snippet"]["responsibility"],
                         ),
                     )
                 else:
@@ -99,4 +108,3 @@ def save_data_to_database(data_company: list[dict[str, Any]], data_vacancy: list
 
     conn.commit()
     conn.close()
-

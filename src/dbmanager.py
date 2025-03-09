@@ -1,7 +1,5 @@
 import psycopg2
 
-from src.config import config
-
 
 class DBManager:
     """Класс для взаимодействия с базой данных"""
@@ -68,9 +66,9 @@ class DBManager:
             cur.execute(
                 """
                     SELECT * FROM vacancy
-                    WHERE salary_to >= (SELECT AVG(salary_to) 
+                    WHERE salary_to >= (SELECT AVG(salary_to)
                     FROM vacancy)
-                    """
+                """
             )
             result = cur.fetchall()
 
@@ -84,7 +82,9 @@ class DBManager:
         conn = psycopg2.connect(dbname=self.db_name, **self.params_db)
 
         with conn.cursor() as cur:
-            cur.execute(f"""SELECT * FROM vacancy WHERE vacancy_name LIKE '%{key_word}%'""")
+            cur.execute(
+                f"""SELECT * FROM vacancy WHERE vacancy_name LIKE '%{key_word}%'"""
+            )
             result = cur.fetchall()
 
         conn.close()
