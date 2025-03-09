@@ -1,0 +1,1061 @@
+[
+  {
+    'id': '116541080',
+    'premium': False,
+    'name': 'Оператор чат-поддержки, г. Ульяновск',
+    'department': {
+      'id': '3529-3529-prof',
+      'name': 'Сбер для экспертов'
+    },
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '98',
+      'name': 'Ульяновск',
+      'url': 'https://api.hh.ru/areas/98'
+    },
+    'salary': {
+      'from': 49500,
+      'to': 59400,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-02-24T11:50:00+0300',
+    'created_at': '2025-02-24T11:50:00+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=116541080',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/116541080?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/116541080',
+    'relations': [],
+    'employer': {
+      'id': '3529',
+      'name': 'СБЕР',
+      'url': 'https://api.hh.ru/employers/3529',
+      'alternate_url': 'https://hh.ru/employer/3529',
+      'logo_urls': {
+        '90': 'https://img.hhcdn.ru/employer-logo/6865266.jpeg',
+        'original': 'https://img.hhcdn.ru/employer-logo-original/1311252.jpg',
+        '240': 'https://img.hhcdn.ru/employer-logo/6865267.jpeg'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=3529',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Специалист со средним образованием и выше. Грамотно пишешь и говоришь. Для успешной работы тебе понадобится стабильное подключение к высокоскоростному интернету...',
+      'responsibility': 'Помогать клиентам в чатах по продуктам и сервисам Сбера. Находить для каждого клиента индивидуальное решение.'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      },
+      {
+        'id': 'HOURS_12',
+        'name': '12\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      },
+      {
+        'id': 'THREE_ON_TWO_OFF',
+        'name': '3/2'
+      },
+      {
+        'id': 'TWO_ON_TWO_OFF',
+        'name': '2/2'
+      },
+      {
+        'id': 'TWO_ON_ONE_OFF',
+        'name': '2/1'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '8',
+        'name': 'Администратор'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '118043974',
+    'premium': False,
+    'name': 'Младший менеджер по персоналу',
+    'department': {
+      'id': 'yandex-1740-yandex',
+      'name': 'Яндекс'
+    },
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '26',
+      'name': 'Воронеж',
+      'url': 'https://api.hh.ru/areas/26'
+    },
+    'salary': {
+      'from': 60000,
+      'to': None,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-06T15:07:06+0300',
+    'created_at': '2025-03-06T15:07:06+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=118043974',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/118043974?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/118043974',
+    'relations': [],
+    'employer': {
+      'id': '1740',
+      'name': 'Яндекс',
+      'url': 'https://api.hh.ru/employers/1740',
+      'alternate_url': 'https://hh.ru/employer/1740',
+      'logo_urls': {
+        '90': 'https://img.hhcdn.ru/employer-logo/3790847.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/3790848.png',
+        'original': 'https://img.hhcdn.ru/employer-logo-original/837491.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=1740',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Имеете опыт в HR или в делопроизводстве. Хотели бы развиваться в кадровом делопроизводстве. Имеете опыт работы с базовым набором офисных...',
+      'responsibility': 'Выполнять административные задачи (ответы на запросы сотрудников, заполнять необходимую документацию). Вести электронный документооборот. Подготавливать документы о расторжении трудовых отношений, вносить...'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '118',
+        'name': 'Специалист по подбору персонала'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'between1And3',
+      'name': 'От 1 года до 3 лет'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '117944146',
+    'premium': False,
+    'name': 'Менеджер сопровождения клиентов (Чаты)',
+    'department': None,
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '1',
+      'name': 'Москва',
+      'url': 'https://api.hh.ru/areas/1'
+    },
+    'salary': {
+      'from': 41000,
+      'to': 65000,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-04T13:17:55+0300',
+    'created_at': '2025-03-04T13:17:55+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=117944146',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/117944146?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/117944146',
+    'relations': [],
+    'employer': {
+      'id': '1122462',
+      'name': 'Skyeng',
+      'url': 'https://api.hh.ru/employers/1122462',
+      'alternate_url': 'https://hh.ru/employer/1122462',
+      'logo_urls': {
+        'original': 'https://img.hhcdn.ru/employer-logo-original/1393996.png',
+        '90': 'https://img.hhcdn.ru/employer-logo/7195767.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/7195768.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=1122462',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Опыт работы в чатах от 6 месяцев. Умение решать задачи последовательно и четко. Организованность и внимание к деталям. ',
+      'responsibility': 'Помогать пользователям освоить наш сервис и получать от него максимум. Консультировать и решать проблемы в процессе обучения через чаты. '
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_12',
+        'name': '12\xa0часов'
+      },
+      {
+        'id': 'OTHER',
+        'name': 'Другое'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'TWO_ON_TWO_OFF',
+        'name': '2/2'
+      },
+      {
+        'id': 'OTHER',
+        'name': 'Другое'
+      }
+    ],
+    'night_shifts': True,
+    'professional_roles': [
+      {
+        'id': '70',
+        'name': 'Менеджер по продажам, менеджер по работе с клиентами'
+      }
+    ],
+    'accept_incomplete_resumes': True,
+    'experience': {
+      'id': 'between1And3',
+      'name': 'От 1 года до 3 лет'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '117236141',
+    'premium': False,
+    'name': 'Python-разработчик (Junior/Middle)',
+    'department': None,
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '1',
+      'name': 'Москва',
+      'url': 'https://api.hh.ru/areas/1'
+    },
+    'salary': {
+      'from': 1500,
+      'to': 3100,
+      'currency': 'USD',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-06T19:37:00+0300',
+    'created_at': '2025-03-06T19:37:00+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=117236141',
+    'show_logo_in_search': None,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/117236141?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/117236141',
+    'relations': [],
+    'employer': {
+      'id': '2870783',
+      'name': 'LATOKEN',
+      'url': 'https://api.hh.ru/employers/2870783',
+      'alternate_url': 'https://hh.ru/employer/2870783',
+      'logo_urls': {
+        'original': 'https://img.hhcdn.ru/employer-logo-original/1057727.png',
+        '90': 'https://img.hhcdn.ru/employer-logo/5851549.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/5851550.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=2870783',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Использует LLM и RAG. 1+ год опыта в Python. Увлечение передовыми технологиями, опыт применения GPT для анализа данных с...',
+      'responsibility': 'Развивают платформу маркетинга для токенов. Внедряют автоматические воронки и телеграм ботов. Развивают платформу управления компании. Отвечаете за доставку проектов в...'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '96',
+        'name': 'Программист, разработчик'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'between1And3',
+      'name': 'От 1 года до 3 лет'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '117481420',
+    'premium': False,
+    'name': 'Дата аналитик (ученик)',
+    'department': None,
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '1',
+      'name': 'Москва',
+      'url': 'https://api.hh.ru/areas/1'
+    },
+    'salary': {
+      'from': 100000,
+      'to': 110000,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-02-19T14:35:13+0300',
+    'created_at': '2025-02-19T14:35:13+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=117481420',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/117481420?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/117481420',
+    'relations': [],
+    'employer': {
+      'id': '6093775',
+      'name': 'Aston',
+      'url': 'https://api.hh.ru/employers/6093775',
+      'alternate_url': 'https://hh.ru/employer/6093775',
+      'logo_urls': {
+        '240': 'https://img.hhcdn.ru/employer-logo/6574070.jpeg',
+        '90': 'https://img.hhcdn.ru/employer-logo/6574069.jpeg',
+        'original': 'https://img.hhcdn.ru/employer-logo-original/1238409.jpg'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=6093775',
+      'accredited_it_employer': True,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Законченное высшее образование. Базовое знание Python, SQL. Знакомство с инструментами визуализации данных. Высокий уровень мотивации к развитию навыков, необходимых для...',
+      'responsibility': 'Онлайн-интенсив 1 месяц. Занятия проходят 2 раза в неделю по вечерам. Вы изучаете теорию и отрабатываете ее с помощью...'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '156',
+        'name': 'BI-аналитик, аналитик данных'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': True,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '118013136',
+    'premium': False,
+    'name': 'Менеджер по развитию клиентов',
+    'department': None,
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '90',
+      'name': 'Томск',
+      'url': 'https://api.hh.ru/areas/90'
+    },
+    'salary': {
+      'from': 78000,
+      'to': 78000,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': {
+      'city': 'Томск',
+      'street': 'улица Лебедева',
+      'building': None,
+      'lat': 56.479148,
+      'lng': 84.984426,
+      'description': None,
+      'raw': 'Томск, улица Лебедева',
+      'metro': None,
+      'metro_stations': [],
+      'id': '15079035'
+    },
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-06T03:00:11+0300',
+    'created_at': '2025-03-06T03:00:11+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=118013136',
+    'show_logo_in_search': None,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/118013136?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/118013136',
+    'relations': [],
+    'employer': {
+      'id': '1781300',
+      'name': 'Дром',
+      'url': 'https://api.hh.ru/employers/1781300',
+      'alternate_url': 'https://hh.ru/employer/1781300',
+      'logo_urls': {
+        '90': 'https://img.hhcdn.ru/employer-logo/3260720.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/3260721.png',
+        'original': 'https://img.hhcdn.ru/employer-logo-original/704901.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=1781300',
+      'accredited_it_employer': True,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Не боится телефонных звонков. Умеет слушать и слышать. Способен анализировать. Грамотно общается.',
+      'responsibility': 'Анализируем условия размещения: какие услуги использует продавец для продвижения, насколько подробно заполнена карточка товара. Даём рекомендации по телефону продавцу по...'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'fullDay',
+      'name': 'Полный день'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'ON_SITE',
+        'name': 'На\xa0месте работодателя'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '71',
+        'name': 'Менеджер по работе с партнерами'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '117934532',
+    'premium': False,
+    'name': 'Специалист дистанционного контакт-центра в чат',
+    'department': {
+      'id': '80-80-start',
+      'name': 'Альфа-Банк. Работа без опыта'
+    },
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '22',
+      'name': 'Владивосток',
+      'url': 'https://api.hh.ru/areas/22'
+    },
+    'salary': {
+      'from': 25000,
+      'to': None,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-04T11:11:20+0300',
+    'created_at': '2025-03-04T11:11:20+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=117934532',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': {
+      'id': '32631',
+      'url': 'https://hh.ru/interview/32631?employerId=80'
+    },
+    'url': 'https://api.hh.ru/vacancies/117934532?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/117934532',
+    'relations': [],
+    'employer': {
+      'id': '80',
+      'name': 'Альфа-Банк',
+      'url': 'https://api.hh.ru/employers/80',
+      'alternate_url': 'https://hh.ru/employer/80',
+      'logo_urls': {
+        'original': 'https://img.hhcdn.ru/employer-logo-original/663873.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/3096625.png',
+        '90': 'https://img.hhcdn.ru/employer-logo/3096624.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=80',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Общительные и вежливые люди, которые любят помогать другим. Образование не имеет значения — важно только желание развиваться вместе с банком. ',
+      'responsibility': 'Принимать входящие обращения от клиентов. Находить решения вопросов и помогать проводить банковские операции. Рассказывать клиентам о преимуществах банка и помогать...'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [
+      {
+        'id': 'from_four_to_six_hours_in_a_day',
+        'name': 'Можно сменами по\xa04-6\xa0часов в\xa0день'
+      }
+    ],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_4',
+        'name': '4\xa0часа'
+      },
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      },
+      {
+        'id': 'FLEXIBLE',
+        'name': 'По\xa0договорённости'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      },
+      {
+        'id': 'WEEKEND',
+        'name': 'По\xa0выходным'
+      },
+      {
+        'id': 'FLEXIBLE',
+        'name': 'Свободный'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '83',
+        'name': 'Оператор call-центра, специалист контактного центра'
+      }
+    ],
+    'accept_incomplete_resumes': True,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'part',
+      'name': 'Частичная занятость'
+    },
+    'employment_form': {
+      'id': 'PART',
+      'name': 'Частичная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '117671875',
+    'premium': False,
+    'name': 'Тревел менеджер',
+    'department': None,
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '112',
+      'name': 'Ярославль',
+      'url': 'https://api.hh.ru/areas/112'
+    },
+    'salary': {
+      'from': 50000,
+      'to': None,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': None,
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-02-25T10:46:06+0300',
+    'created_at': '2025-02-25T10:46:06+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=117671875',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/117671875?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/117671875',
+    'relations': [],
+    'employer': {
+      'id': '67611',
+      'name': 'Тензор',
+      'url': 'https://api.hh.ru/employers/67611',
+      'alternate_url': 'https://hh.ru/employer/67611',
+      'logo_urls': {
+        '90': 'https://img.hhcdn.ru/employer-logo/2558697.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/2558698.png',
+        'original': 'https://img.hhcdn.ru/employer-logo-original/529305.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=67611',
+      'accredited_it_employer': False,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Большой опыт путешествий. Умение воплотить идею в реальность. Активность, умение справляться с несколькими задачами одновременно.',
+      'responsibility': 'Вести контроль и помогать в организации командировок.'
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'remote',
+      'name': 'Удаленная работа'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [
+      {
+        'id': 'ON_SITE',
+        'name': 'На\xa0месте работодателя'
+      },
+      {
+        'id': 'REMOTE',
+        'name': 'Удалённо'
+      },
+      {
+        'id': 'HYBRID',
+        'name': 'Гибрид'
+      }
+    ],
+    'working_hours': [
+      {
+        'id': 'HOURS_8',
+        'name': '8\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'FIVE_ON_TWO_OFF',
+        'name': '5/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '72',
+        'name': 'Менеджер по туризму'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  },
+  {
+    'id': '118083727',
+    'premium': False,
+    'name': 'Водитель-курьер (Улан-Удэ)',
+    'department': {
+      'id': 'ozonru-2180-boro',
+      'name': 'Ozon Производство'
+    },
+    'has_test': False,
+    'response_letter_required': False,
+    'area': {
+      'id': '20',
+      'name': 'Улан-Удэ',
+      'url': 'https://api.hh.ru/areas/20'
+    },
+    'salary': {
+      'from': 162000,
+      'to': 270000,
+      'currency': 'RUR',
+      'gross': True
+    },
+    'type': {
+      'id': 'open',
+      'name': 'Открытая'
+    },
+    'address': {
+      'city': 'Улан-Удэ',
+      'street': 'Домостроительная улица',
+      'building': '2Б',
+      'lat': 51.784008,
+      'lng': 107.570003,
+      'description': None,
+      'raw': 'Улан-Удэ, Домостроительная улица, 2Б',
+      'metro': None,
+      'metro_stations': [],
+      'id': '16354375'
+    },
+    'response_url': None,
+    'sort_point_distance': None,
+    'published_at': '2025-03-07T17:30:22+0300',
+    'created_at': '2025-03-07T17:30:22+0300',
+    'archived': False,
+    'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=118083727',
+    'branding': {
+      'type': 'MAKEUP',
+      'tariff': None
+    },
+    'show_logo_in_search': True,
+    'insider_interview': None,
+    'url': 'https://api.hh.ru/vacancies/118083727?host=hh.ru',
+    'alternate_url': 'https://hh.ru/vacancy/118083727',
+    'relations': [],
+    'employer': {
+      'id': '2180',
+      'name': 'Ozon',
+      'url': 'https://api.hh.ru/employers/2180',
+      'alternate_url': 'https://hh.ru/employer/2180',
+      'logo_urls': {
+        'original': 'https://img.hhcdn.ru/employer-logo-original/1069622.png',
+        '240': 'https://img.hhcdn.ru/employer-logo/5899118.png',
+        '90': 'https://img.hhcdn.ru/employer-logo/5899117.png'
+      },
+      'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=2180',
+      'accredited_it_employer': True,
+      'trusted': True
+    },
+    'snippet': {
+      'requirement': 'Стаж вождения от 1 года по водительскому удостоверению. Телефон на базе Android. Статус самозанятого либо ИП.',
+      'responsibility': 'Доставлять крупногабаритные товары интернет-магазина до покупателей на автомобиле компании. Грузить и разгружать машину в паре с грузчиком. '
+    },
+    'contacts': None,
+    'schedule': {
+      'id': 'shift',
+      'name': 'Сменный график'
+    },
+    'working_days': [],
+    'working_time_intervals': [],
+    'working_time_modes': [],
+    'accept_temporary': False,
+    'fly_in_fly_out_duration': [],
+    'work_format': [],
+    'working_hours': [
+      {
+        'id': 'HOURS_12',
+        'name': '12\xa0часов'
+      }
+    ],
+    'work_schedule_by_days': [
+      {
+        'id': 'TWO_ON_TWO_OFF',
+        'name': '2/2'
+      }
+    ],
+    'night_shifts': False,
+    'professional_roles': [
+      {
+        'id': '58',
+        'name': 'Курьер'
+      }
+    ],
+    'accept_incomplete_resumes': False,
+    'experience': {
+      'id': 'noExperience',
+      'name': 'Нет опыта'
+    },
+    'employment': {
+      'id': 'full',
+      'name': 'Полная занятость'
+    },
+    'employment_form': {
+      'id': 'FULL',
+      'name': 'Полная'
+    },
+    'internship': False,
+    'adv_response_url': None,
+    'is_adv_vacancy': False,
+    'adv_context': None
+  }
+]
+
