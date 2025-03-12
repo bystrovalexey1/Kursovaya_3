@@ -6,7 +6,7 @@ from src.base_hh_api import BaseLoadVacancies
 class HeadHunterAPI(BaseLoadVacancies):
     """Класс получает информацию о вакансиях с сайта HeadHunter"""
 
-    def __init__(self, file_worker: str = "data/json_vacancies.json"):
+    def __init__(self):
         """Конструктор обьекта запроса инфо через API сервис"""
 
         self.__url = "https://api.hh.ru/"
@@ -24,7 +24,7 @@ class HeadHunterAPI(BaseLoadVacancies):
             67611,
             2180,
         ]
-        super().__init__(file_worker)
+
 
     def load_vacancies(self):
         """Метод загрузки данных вакансий из API сервиса"""
@@ -33,12 +33,17 @@ class HeadHunterAPI(BaseLoadVacancies):
         employers = []
         for employer_id in self.employers:
             emp_url = f"{self.__url}employers/{employer_id}"
-            employer_info = requests.get(
+            response = requests.get(
                 emp_url, headers=self.__headers, params=emp_params
-            ).json()
-            employers.append(employer_info)
+            )
+            if response.status_code == 200:
+                employer_info = response.json()
+                employers.append(employer_info)
+            else:
+                raise Exception(f"Ошибка {response.status_code}: {response.text}")
 
         return employers
+
 
     def correct_vacancy(self, num_vac):
         """Метод преобразования вакансий в корректный формат"""

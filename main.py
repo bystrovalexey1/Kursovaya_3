@@ -14,7 +14,7 @@ def main():
     top_n = int(input("Выберите количество вакансий в каждой компании: "))
     data_company = get_hh_comp_data()
     data_vacancy = get_hh_vac_data(top_n)
-    create_database("hh", params)
+    create_database()
     save_data_to_database(data_company, data_vacancy, "hh", params)
 
     db_company = DBManager("hh", params)
