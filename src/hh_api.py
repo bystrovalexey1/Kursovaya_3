@@ -1,6 +1,7 @@
 import requests
 
 from src.base_hh_api import BaseLoadVacancies
+from src.config import COMPANY_ID
 
 
 class HeadHunterAPI(BaseLoadVacancies):
@@ -12,18 +13,7 @@ class HeadHunterAPI(BaseLoadVacancies):
         self.__url = "https://api.hh.ru/"
         self.__headers = {"User-Agent": "HH-User-Agent"}
         self.__params = None
-        self.employers = [
-            3529,
-            1740,
-            1122462,
-            2870783,
-            6093775,
-            1781300,
-            4181,
-            80,
-            67611,
-            2180,
-        ]
+        self.employers = COMPANY_ID
 
 
     def load_vacancies(self):
