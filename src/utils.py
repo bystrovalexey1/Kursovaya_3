@@ -26,7 +26,7 @@ def create_database() -> None:
     conn.autocommit = True
     cur = conn.cursor()
 
-    cur.execute("DROP DATABASE hh")
+    cur.execute("DROP DATABASE IF EXISTS hh")
     cur.execute("CREATE DATABASE hh")
 
     cur.close()

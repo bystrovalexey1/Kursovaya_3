@@ -16,6 +16,9 @@ class HeadHunterAPI(BaseLoadVacancies):
         self.employers = COMPANY_ID
 
 
+
+
+
     def load_vacancies(self):
         """Метод загрузки данных вакансий из API сервиса"""
 
