@@ -32,7 +32,7 @@ def create_database() -> None:
     cur.close()
     conn.close()
 
-    conn = psycopg2.connect(dbname='hh', **params)
+    conn = psycopg2.connect(dbname="hh", **params)
     with conn.cursor() as cur:
         cur.execute(
             """

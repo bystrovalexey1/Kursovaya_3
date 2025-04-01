@@ -2,17 +2,17 @@ from configparser import ConfigParser
 
 
 COMPANY_ID = [
-            3529,
-            1740,
-            1122462,
-            2870783,
-            6093775,
-            1781300,
-            4181,
-            80,
-            67611,
-            2180,
-        ]
+    3529,
+    1740,
+    1122462,
+    2870783,
+    6093775,
+    1781300,
+    4181,
+    80,
+    67611,
+    2180,
+]
 
 
 def config(filename="database.ini", section="postgresql"):

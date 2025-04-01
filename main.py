@@ -48,7 +48,7 @@ def main():
         result = db_company.get_vacancies_with_higher_salary()
         for res in result:
             print(
-                f"{res[2]}, зарплата: от {res[3]} до {res[4]} руб., ссылка: {res[6]}, описание: {res[7]}"
+                f"{res[1]}, зарплата: от {res[2]} до {res[3]} руб., ссылка: {res[5]}, описание: {res[6]}"
             )
 
     elif user_choise == "5":
@@ -57,7 +57,7 @@ def main():
 
         for res in result:
             print(
-                f"{res[2]}, зарплата: от {res[3]} до {res[4]} руб., ссылка: {res[6]}, описание: {res[7]}"
+                f"{res[1]}, зарплата: от {res[2]} до {res[3]} руб., ссылка: {res[5]}, описание: {res[6]}"
             )
 
     else:
