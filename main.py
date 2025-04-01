@@ -14,7 +14,7 @@ def main():
     top_n = int(input("Выберите количество вакансий в каждой компании: "))
     data_company = get_hh_comp_data()
     data_vacancy = get_hh_vac_data(top_n)
-    create_database("hh", params)
+    create_database()
     save_data_to_database(data_company, data_vacancy, "hh", params)
 
     db_company = DBManager("hh", params)
@@ -48,7 +48,7 @@ def main():
         result = db_company.get_vacancies_with_higher_salary()
         for res in result:
             print(
-                f"{res[2]}, зарплата: от {res[3]} до {res[4]} руб., ссылка: {res[6]}, описание: {res[7]}"
+                f"{res[1]}, зарплата: от {res[2]} до {res[3]} руб., ссылка: {res[5]}, описание: {res[6]}"
             )
 
     elif user_choise == "5":
@@ -57,7 +57,7 @@ def main():
 
         for res in result:
             print(
-                f"{res[2]}, зарплата: от {res[3]} до {res[4]} руб., ссылка: {res[6]}, описание: {res[7]}"
+                f"{res[1]}, зарплата: от {res[2]} до {res[3]} руб., ссылка: {res[5]}, описание: {res[6]}"
             )
 
     else:

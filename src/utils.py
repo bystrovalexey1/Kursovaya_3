@@ -19,25 +19,24 @@ def get_hh_comp_data() -> list[dict[str, Any]]:
     return data_company
 
 
-def create_database(database_name: str, params: dict) -> None:
+def create_database() -> None:
     """Создание базы данных и таблиц для сохранения данных о компаниях и вакансиях"""
     params = config()
     conn = psycopg2.connect(dbname="postgres", **params)
     conn.autocommit = True
     cur = conn.cursor()
 
-    cur.execute(f"DROP DATABASE {database_name}")
-    cur.execute(f"CREATE DATABASE {database_name}")
+    cur.execute("DROP DATABASE IF EXISTS hh")
+    cur.execute("CREATE DATABASE hh")
 
     cur.close()
     conn.close()
 
-    conn = psycopg2.connect(dbname=database_name, **params)
+    conn = psycopg2.connect(dbname="hh", **params)
     with conn.cursor() as cur:
         cur.execute(
             """
         CREATE TABLE company (
-                    id SERIAL UNIQUE,
                     company_id INT PRIMARY KEY,
                     company_name VARCHAR(255) NOT NULL);
         """
@@ -47,7 +46,6 @@ def create_database(database_name: str, params: dict) -> None:
         cur.execute(
             """
         CREATE TABLE vacancy (
-                    vacancy_id SERIAL PRIMARY KEY,
                     company_id INT REFERENCES company(company_id),
                     vacancy_name VARCHAR(255) NOT NULL,
                     salary_from INT DEFAULT(0),
